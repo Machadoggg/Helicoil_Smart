@@ -1,3 +1,8 @@
+using Helicoil_Smart.Application.Interfaces;
+using Helicoil_Smart.Application.Services;
+using Helicoil_Smart.Infrastructure;
+using Microsoft.EntityFrameworkCore;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
