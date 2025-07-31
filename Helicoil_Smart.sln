@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helicoil_Smart.Domain", "He
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helicoil_Smart.Application", "Helicoil_Smart.Application\Helicoil_Smart.Application.csproj", "{85FA38D6-B077-41BD-A293-088F768AC804}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helicoil_Smart.Infrastructure", "Helicoil_Smart.Infrastructure\Helicoil_Smart.Infrastructure.csproj", "{B58E2618-06F7-4F47-A6ED-89EF2A4DF80E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{85FA38D6-B077-41BD-A293-088F768AC804}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{85FA38D6-B077-41BD-A293-088F768AC804}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{85FA38D6-B077-41BD-A293-088F768AC804}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B58E2618-06F7-4F47-A6ED-89EF2A4DF80E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B58E2618-06F7-4F47-A6ED-89EF2A4DF80E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B58E2618-06F7-4F47-A6ED-89EF2A4DF80E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B58E2618-06F7-4F47-A6ED-89EF2A4DF80E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
