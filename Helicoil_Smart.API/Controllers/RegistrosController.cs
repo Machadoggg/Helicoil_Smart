@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Helicoil_Smart.Application.DTOs;
+using Helicoil_Smart.Application.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 
 namespace Helicoil_Smart.API.Controllers
