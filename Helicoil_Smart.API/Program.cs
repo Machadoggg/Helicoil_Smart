@@ -7,6 +7,13 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
+// EF Core
+builder.Services.AddDbContext<AppDbContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+
+// Servicios
+builder.Services.AddScoped<IRegistroService, RegistroService>();
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
