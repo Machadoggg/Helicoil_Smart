@@ -5,13 +5,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-using Application.DTOs;
-using Domain.Entities;
+using Helicoil_Smart.Application.DTOs;
+using Helicoil_Smart.Domain.Entities;
 using Helicoil_Smart.Application.DTOs;
 using Helicoil_Smart.Application.Interfaces;
-using Infrastructure.Context;
 using Microsoft.EntityFrameworkCore;
 using OfficeOpenXml;
+using Helicoil_Smart.Infrastructure;
 
 namespace Helicoil_Smart.Application.Services
 {
@@ -54,7 +54,7 @@ namespace Helicoil_Smart.Application.Services
 
             var lista = await query.ToListAsync();
 
-            ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
+            ExcelPackage.LicenseContext = OfficeOpenXml.LicenseContext.NonCommercial;
             using var package = new ExcelPackage();
             var ws = package.Workbook.Worksheets.Add("Registros");
 
