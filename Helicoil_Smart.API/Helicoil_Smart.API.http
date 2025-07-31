@@ -1,0 +1,6 @@
+@Helicoil_Smart.API_HostAddress = http://localhost:5098
+
+GET {{Helicoil_Smart.API_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
