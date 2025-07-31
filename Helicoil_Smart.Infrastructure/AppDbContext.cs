@@ -1,4 +1,4 @@
-﻿using Domain.Entities;
+﻿using Helicoil_Smart.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
 using System.Collections.Generic;
 

@@ -10,4 +10,12 @@
     <Folder Include="Context\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Helicoil_Smart.Domain\Helicoil_Smart.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
