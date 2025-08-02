@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helicoil_Smart.Infrastructu
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helicoil_Smart.API", "Helicoil_Smart.API\Helicoil_Smart.API.csproj", "{326D0191-7A69-4307-B5AF-4D8E2625CD71}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Helicoil_Smart.Mobile", "Helicoil_Smart.Mobile\Helicoil_Smart.Mobile.csproj", "{6BA776E9-B78C-4C79-919D-930104F0111C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,12 @@ Global
 		{326D0191-7A69-4307-B5AF-4D8E2625CD71}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{326D0191-7A69-4307-B5AF-4D8E2625CD71}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{326D0191-7A69-4307-B5AF-4D8E2625CD71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BA776E9-B78C-4C79-919D-930104F0111C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BA776E9-B78C-4C79-919D-930104F0111C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BA776E9-B78C-4C79-919D-930104F0111C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{6BA776E9-B78C-4C79-919D-930104F0111C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BA776E9-B78C-4C79-919D-930104F0111C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BA776E9-B78C-4C79-919D-930104F0111C}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
